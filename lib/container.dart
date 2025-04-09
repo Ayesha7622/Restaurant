@@ -6,46 +6,56 @@ class Containerclass extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: Colors.blueGrey,
-        body: Column(
-          children: [
-            Row(
-              children: [
-                Container(
-                  height: 240,
-                  width: 350,
-                  decoration: BoxDecoration(
-                    color: Colors.green,
-                    borderRadius: BorderRadius.circular(15),
+        body: SingleChildScrollView(
+          child: Column(
+            children: [
+              Row(
+                children: [
+                  Container(
+                    height: 240,
+                    width: 350,
+                    decoration: BoxDecoration(
+                      color: Colors.green,
+                      borderRadius: BorderRadius.circular(15),
+                    ),
+                    child: Row(
+                      children: [
+                        Text(
+                          'Variables',
+                          style: TextStyle(
+                              fontSize: 10,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.black),
+                        ),
+                        Row(
+                          children: [
+                            Text(
+                              'A variable is a named storage in a program that holds a value ',
+                              style: TextStyle(
+                                  fontSize: 6,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.black),
+                            ),
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            Text(
+                              'which can change during the execution of the program.',
+                              style: TextStyle(
+                                  fontSize: 6,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.black),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
                   ),
-                  child: Row(
-                    children: [
-                      Text(
-                        'Variables',
-                        style: TextStyle(
-                            fontSize: 10,
-                            fontWeight: FontWeight.bold,
-                            color: Colors.black),
-                      ),
-                      Text(
-                        'A variable is a named storage in a program that holds a value ',
-                        style: TextStyle(
-                            fontSize: 6,
-                            fontWeight: FontWeight.bold,
-                            color: Colors.black),
-                      ),
-                      Text(
-                        'which can change during the execution of the program.',
-                        style: TextStyle(
-                            fontSize: 6,
-                            fontWeight: FontWeight.bold,
-                            color: Colors.black),
-                      ),
-                    ],
-                  ),
-                ),
-              ],
-            )
-          ],
+                ],
+              )
+            ],
+          ),
         ));
   }
 }
