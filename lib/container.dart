@@ -31,6 +31,7 @@ class Containerclass extends StatelessWidget {
                                     color: Colors.black),
                               ),
                               Text('data'),
+                              Text('data'),
                               Row(
                                 children: [
                                   Text(
