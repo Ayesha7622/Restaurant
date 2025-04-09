@@ -21,6 +21,7 @@ class Containerclass extends StatelessWidget {
                         borderRadius: BorderRadius.circular(15),
                       ),
                       child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Padding(
                             padding: const EdgeInsets.all(8.0),
