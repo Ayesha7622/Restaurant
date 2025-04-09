@@ -15,7 +15,7 @@ class Containerclass extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Container(
-                      height: 240,
+                      height: 200,
                       width: 550,
                       decoration: BoxDecoration(
                         color: Colors.green,
