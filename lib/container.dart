@@ -21,38 +21,34 @@ class Containerclass extends StatelessWidget {
                       ),
                       child: Column(
                         children: [
+                          Text(
+                            'Variables',
+                            style: TextStyle(
+                                fontSize: 10,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.black),
+                          ),
+                          // Text('data'),
+                          // Text('data'),
                           Row(
                             children: [
                               Text(
-                                'Variables',
+                                'A variable is a named storage in a program that holds a value ',
                                 style: TextStyle(
-                                    fontSize: 10,
+                                    fontSize: 6,
                                     fontWeight: FontWeight.bold,
                                     color: Colors.black),
                               ),
-                              Text('data'),
-                              Text('data'),
-                              Row(
-                                children: [
-                                  Text(
-                                    'A variable is a named storage in a program that holds a value ',
-                                    style: TextStyle(
-                                        fontSize: 6,
-                                        fontWeight: FontWeight.bold,
-                                        color: Colors.black),
-                                  ),
-                                ],
-                              ),
-                              Row(
-                                children: [
-                                  Text(
-                                    'which can change during the execution of the program.',
-                                    style: TextStyle(
-                                        fontSize: 6,
-                                        fontWeight: FontWeight.bold,
-                                        color: Colors.black),
-                                  ),
-                                ],
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              Text(
+                                'which can change during the execution of the program.',
+                                style: TextStyle(
+                                    fontSize: 6,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.black),
                               ),
                             ],
                           ),
