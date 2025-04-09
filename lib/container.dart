@@ -11,17 +11,17 @@ class Containerclass extends StatelessWidget {
             children: [
               Row(
                 children: [
-                  Column(
-                    children: [
-                      Center(
-                        child: Container(
-                          height: 240,
-                          width: 450,
-                          decoration: BoxDecoration(
-                            color: Colors.green,
-                            borderRadius: BorderRadius.circular(15),
-                          ),
-                          child: Row(
+                  Center(
+                    child: Container(
+                      height: 240,
+                      width: 450,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(15),
+                      ),
+                      child: Column(
+                        children: [
+                          Row(
                             children: [
                               Text(
                                 'Variables',
@@ -54,9 +54,9 @@ class Containerclass extends StatelessWidget {
                               ),
                             ],
                           ),
-                        ),
+                        ],
                       ),
-                    ],
+                    ),
                   ),
                 ],
               )
