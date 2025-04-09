@@ -24,7 +24,7 @@ class Containerclass extends StatelessWidget {
                           Text(
                             'Variables',
                             style: TextStyle(
-                                fontSize: 10,
+                                fontSize: 30,
                                 fontWeight: FontWeight.bold,
                                 color: Colors.black),
                           ),
@@ -35,7 +35,7 @@ class Containerclass extends StatelessWidget {
                               Text(
                                 'A variable is a named storage in a program that holds a value ',
                                 style: TextStyle(
-                                    fontSize: 6,
+                                    fontSize: 18,
                                     fontWeight: FontWeight.bold,
                                     color: Colors.black),
                               ),
