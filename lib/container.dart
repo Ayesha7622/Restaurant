@@ -11,47 +11,59 @@ class Containerclass extends StatelessWidget {
             children: [
               Row(
                 children: [
-                  Container(
-                    height: 240,
-                    width: 550,
-                    decoration: BoxDecoration(
-                      color: Colors.green,
-                      borderRadius: BorderRadius.circular(15),
-                    ),
-                    child: Column(
-                      children: [
-                        Text(
-                          'Variables',
-                          style: TextStyle(
-                              fontSize: 30,
-                              fontWeight: FontWeight.bold,
-                              color: Colors.black),
-                        ),
-                        // Text('data'),
-                        // Text('data'),
-                        Row(
-                          children: [
-                            Text(
-                              'A variable is a named storage in a program that holds a value ',
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(
+                      height: 240,
+                      width: 550,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(15),
+                      ),
+                      child: Column(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text(
+                              'Variables',
                               style: TextStyle(
-                                  fontSize: 18,
+                                  fontSize: 30,
                                   fontWeight: FontWeight.bold,
                                   color: Colors.black),
                             ),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            Text(
-                              'which can change during the execution of the program.',
-                              style: TextStyle(
-                                  fontSize: 18,
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.black),
-                            ),
-                          ],
-                        ),
-                      ],
+                          ),
+                          // Text('data'),
+                          // Text('data'),
+                          Row(
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Text(
+                                  'A variable is a named storage in a program that holds a value ',
+                                  style: TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.black),
+                                ),
+                              ),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Text(
+                                  'which can change during the execution of the program.',
+                                  style: TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.black),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
                     ),
                   ),
                 ],
