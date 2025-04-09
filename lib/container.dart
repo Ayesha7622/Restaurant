@@ -68,13 +68,13 @@ class Containerclass extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Column(
+                  Row(
                     children: [
-                      Row(
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Container(
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Column(
+                          children: [
+                            Container(
                               height: 500,
                               width: 600,
                               decoration: BoxDecoration(
@@ -223,8 +223,8 @@ class Containerclass extends StatelessWidget {
                                 ],
                               ),
                             ),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                     ],
                   ),
