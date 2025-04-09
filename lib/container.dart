@@ -11,8 +11,8 @@ class Containerclass extends StatelessWidget {
             Row(
               children: [
                 Container(
-                  height: 40,
-                  width: 100,
+                  height: 240,
+                  width: 350,
                   decoration: BoxDecoration(
                     color: Colors.green,
                     borderRadius: BorderRadius.circular(15),
