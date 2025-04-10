@@ -534,7 +534,7 @@ class Containerclass extends StatelessWidget {
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child: Text(
-                                '5. Cannot use reserved keywords',
+                                '3. Comparison Operators – For checking conditions',
                                 style: TextStyle(
                                     fontSize: 18,
                                     fontWeight: FontWeight.bold,
@@ -548,7 +548,7 @@ class Containerclass extends StatelessWidget {
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child: Text(
-                                '6. Choose meaningful and descriptive names',
+                                '. == (equal), != (not equal), <, >, <=, >=',
                                 style: TextStyle(
                                     fontSize: 18,
                                     fontWeight: FontWeight.bold,
@@ -562,7 +562,7 @@ class Containerclass extends StatelessWidget {
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child: Text(
-                                '7. Avoid using long or confusing names',
+                                '4. Logical Operators – For combining conditions',
                                 style: TextStyle(
                                     fontSize: 18,
                                     fontWeight: FontWeight.bold,
@@ -576,7 +576,7 @@ class Containerclass extends StatelessWidget {
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child: Text(
-                                '8. Don’t use variable names that look like numbers or symbols',
+                                '. && (and), || (or), ! (not)',
                                 style: TextStyle(
                                     fontSize: 18,
                                     fontWeight: FontWeight.bold,
