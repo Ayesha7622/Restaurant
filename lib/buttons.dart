@@ -64,7 +64,7 @@ class Buttonclass extends StatelessWidget {
               child: Text(
                 'Division',
                 style: TextStyle(
-                    fontSize: 15,
+                    fontSize: 30,
                     fontWeight: FontWeight.bold,
                     color: const Color.fromARGB(255, 232, 240, 172)),
               ),
