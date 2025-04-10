@@ -60,7 +60,13 @@ class Buttonclass extends StatelessWidget {
               },
             ),
             TextButton(
-              child: Text('Division'),
+              child: Text(
+                'Division',
+                style: TextStyle(
+                    fontSize: 15,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.blueAccent),
+              ),
               onPressed: () {
                 double m = 69;
                 double n = 27;
