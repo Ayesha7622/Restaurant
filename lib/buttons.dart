@@ -60,18 +60,7 @@ class Buttonclass extends StatelessWidget {
                 double mod = n1 % n2;
                 print('n1=$n1');
                 print('n2=$n2');
-                print('Addition=$mod');
-              },
-            ),
-            TextButton(
-              child: Text('Add'),
-              onPressed: () {
-                int n1 = 6;
-                int n2 = 27;
-                int add = n1 + n2;
-                print('n1=$n1');
-                print('n2=$n2');
-                print('Addition=$add');
+                print('Modulas=$mod');
               },
             ),
           ],
