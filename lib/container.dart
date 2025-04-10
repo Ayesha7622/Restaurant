@@ -5,9 +5,9 @@ class Containerclass extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.blueGrey,
-        body: SingleChildScrollView(
-            child: Column(children: [
+      backgroundColor: Colors.blueGrey,
+      body: SingleChildScrollView(
+        child: Column(children: [
           Row(mainAxisAlignment: MainAxisAlignment.center, children: [
             Padding(
               padding: const EdgeInsets.all(8.0),
@@ -301,12 +301,18 @@ class Containerclass extends StatelessWidget {
                               color: const Color.fromARGB(255, 180, 234, 196),
                               borderRadius: BorderRadius.circular(15),
                             ),
-                            child: Text(
-                                    'Basic Data Types:',
-                                    style: TextStyle(
-                                        fontSize: 30,
-                                        fontWeight: FontWeight.bold,
-                                        color: Colors.black),
+                            child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Text(
+                                      'Basic Data Types:',
+                                      style: TextStyle(
+                                          fontSize: 30,
+                                          fontWeight: FontWeight.bold,
+                                          color: Colors.black),
+                                    ),
                                   ),
                                   Row(
                                     children: [
@@ -378,12 +384,12 @@ class Containerclass extends StatelessWidget {
                                       ),
                                     ],
                                   ),
-                                ],
-                              ),
-                            ),
-                          )
+                                ]),
+                          ),
                         ]))
               ]))
-        ])));
+        ]),
+      ),
+    );
   }
 }
