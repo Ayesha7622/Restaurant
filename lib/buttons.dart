@@ -60,7 +60,7 @@ class Buttonclass extends StatelessWidget {
                 double mod = n1 % n2;
                 print('n1=$n1');
                 print('n2=$n2');
-                print('Addition=$add');
+                print('Addition=$mod');
               },
             ),
           ],
