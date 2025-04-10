@@ -301,11 +301,7 @@ class Containerclass extends StatelessWidget {
                               color: const Color.fromARGB(255, 180, 234, 196),
                               borderRadius: BorderRadius.circular(15),
                             ),
-                            child: Padding(
-                              padding: const EdgeInsets.all(8.0),
-                              child: Column(
-                                children: [
-                                  Text(
+                            child: Text(
                                     'Basic Data Types:',
                                     style: TextStyle(
                                         fontSize: 30,
