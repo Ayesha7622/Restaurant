@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:restaurant/buttons.dart';
 import 'package:restaurant/container.dart';
 import 'package:restaurant/restaurant.dart';
 
@@ -12,7 +13,8 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: Restaurant()
+    return MaterialApp(debugShowCheckedModeBanner: false, home: Buttonclass()
+        //home: Restaurant()
         //home: Containerclass()
         );
   }
