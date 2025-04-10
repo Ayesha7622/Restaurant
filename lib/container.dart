@@ -287,7 +287,8 @@ class Containerclass extends StatelessWidget {
               ])),
           Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Row(mainAxisAlignment: MainAxisAlignment.start, children: [
+              child:
+                  Row(mainAxisAlignment: MainAxisAlignment.center, children: [
                 Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Column(
