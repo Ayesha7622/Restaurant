@@ -91,7 +91,7 @@ class Restaurant extends StatelessWidget {
                           child: Text(
                             'Delivery',
                             style: TextStyle(
-                                fontSize: 15,
+                                fontSize: 12,
                                 fontWeight: FontWeight.w300,
                                 color: const Color.fromARGB(255, 13, 13, 13)),
                           ),
@@ -118,7 +118,7 @@ class Restaurant extends StatelessWidget {
                           child: Text(
                             'Dining',
                             style: TextStyle(
-                                fontSize: 15,
+                                fontSize: 12,
                                 fontWeight: FontWeight.w300,
                                 color: const Color.fromARGB(255, 13, 13, 13)),
                           ),
