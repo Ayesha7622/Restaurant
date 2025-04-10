@@ -237,7 +237,7 @@ class Containerclass extends StatelessWidget {
                       height: 150,
                       width: 550,
                       decoration: BoxDecoration(
-                        color: const Color.fromARGB(255, 180, 237, 244),
+                        color: const Color.fromARGB(255, 205, 250, 141),
                         borderRadius: BorderRadius.circular(15),
                       ),
                       child: Column(
