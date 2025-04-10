@@ -82,7 +82,7 @@ class Buttonclass extends StatelessWidget {
                 style: TextStyle(
                     fontSize: 15,
                     fontWeight: FontWeight.bold,
-                    color: Colors.blueAccent),
+                    color: const Color.fromARGB(255, 174, 193, 226)),
               ),
               onPressed: () {
                 double n1 = 6;
