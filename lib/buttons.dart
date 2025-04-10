@@ -26,7 +26,13 @@ class Buttonclass extends StatelessWidget {
               },
             ),
             TextButton(
-              child: Text('Subtraction'),
+              child: Text(
+                'Subtraction',
+                style: TextStyle(
+                    fontSize: 15,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.blueAccent),
+              ),
               onPressed: () {
                 int a = 54;
                 int b = 12;
