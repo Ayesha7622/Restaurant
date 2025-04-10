@@ -78,7 +78,7 @@ class Restaurant extends StatelessWidget {
                       scrollDirection: Axis.horizontal,
                       child: Container(
                         height: 50,
-                        width: 80,
+                        width: 50,
                         decoration: BoxDecoration(
                           color: const Color.fromARGB(255, 218, 109, 41),
                           borderRadius: BorderRadius.only(
@@ -105,7 +105,7 @@ class Restaurant extends StatelessWidget {
                       scrollDirection: Axis.horizontal,
                       child: Container(
                         height: 50,
-                        width: 80,
+                        width: 50,
                         decoration: BoxDecoration(
                           color: const Color.fromARGB(255, 247, 236, 229),
                           borderRadius: BorderRadius.only(
