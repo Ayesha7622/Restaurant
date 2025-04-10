@@ -48,7 +48,7 @@ class Restaurant extends StatelessWidget {
                       padding: const EdgeInsets.all(8.0),
                       child: Container(
                         height: 50,
-                        width: 300,
+                        width: 250,
                         decoration: BoxDecoration(
                           color: const Color.fromARGB(255, 224, 216, 216),
                           borderRadius: BorderRadius.circular(15),
