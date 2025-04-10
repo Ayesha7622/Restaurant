@@ -5,7 +5,7 @@ class Containerclass extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 188, 215, 229),
+      backgroundColor: const Color.fromARGB(255, 1, 42, 62),
       body: SingleChildScrollView(
         child: Column(children: [
           Row(mainAxisAlignment: MainAxisAlignment.center, children: [
@@ -398,7 +398,7 @@ class Containerclass extends StatelessWidget {
                     height: 150,
                     width: 550,
                     decoration: BoxDecoration(
-                      color: const Color.fromARGB(255, 232, 190, 190),
+                      color: const Color.fromARGB(255, 208, 180, 180),
                       borderRadius: BorderRadius.circular(15),
                     ),
                     child: Column(
