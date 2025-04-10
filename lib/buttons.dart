@@ -30,7 +30,7 @@ class Buttonclass extends StatelessWidget {
               child: Text(
                 'Subtraction',
                 style: TextStyle(
-                    fontSize: 15,
+                    fontSize: 30,
                     fontWeight: FontWeight.bold,
                     color: const Color.fromARGB(255, 238, 203, 176)),
               ),
