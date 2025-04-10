@@ -302,13 +302,13 @@ class Containerclass extends StatelessWidget {
                                 width: 550,
                                 decoration: BoxDecoration(
                                   color:
-                                      const Color.fromARGB(255, 180, 237, 244),
+                                      const Color.fromARGB(255, 133, 197, 151),
                                   borderRadius: BorderRadius.circular(15),
                                 ),
                                 child: Text(
                                   'Basic Data Types:',
                                   style: TextStyle(
-                                      fontSize: 18,
+                                      fontSize: 30,
                                       fontWeight: FontWeight.bold,
                                       color: Colors.black),
                                 ),
