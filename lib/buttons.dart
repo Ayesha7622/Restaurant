@@ -81,7 +81,7 @@ class Buttonclass extends StatelessWidget {
               child: Text(
                 'Modulas',
                 style: TextStyle(
-                    fontSize: 15,
+                    fontSize: 30,
                     fontWeight: FontWeight.bold,
                     color: const Color.fromARGB(255, 174, 193, 226)),
               ),
