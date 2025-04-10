@@ -585,20 +585,6 @@ class Containerclass extends StatelessWidget {
                             ),
                           ],
                         ),
-                        Row(
-                          children: [
-                            Padding(
-                              padding: const EdgeInsets.all(8.0),
-                              child: Text(
-                                '9. Variable names are case-sensitive',
-                                style: TextStyle(
-                                    fontSize: 18,
-                                    fontWeight: FontWeight.bold,
-                                    color: Colors.black),
-                              ),
-                            ),
-                          ],
-                        ),
                       ],
                     ),
                   ),
