@@ -43,7 +43,13 @@ class Buttonclass extends StatelessWidget {
               },
             ),
             TextButton(
-              child: Text('Multiplication'),
+              child: Text(
+                'Multiplication',
+                style: TextStyle(
+                    fontSize: 15,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.blueAccent),
+              ),
               onPressed: () {
                 int z = 16;
                 int x = 27;
