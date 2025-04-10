@@ -5,6 +5,7 @@ class Buttonclass extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color.fromARGB(255, 55, 45, 70),
       body: Center(
         child: Column(
           children: [
