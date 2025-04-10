@@ -77,7 +77,13 @@ class Buttonclass extends StatelessWidget {
               },
             ),
             TextButton(
-              child: Text('Modulas'),
+              child: Text(
+                'Modulas',
+                style: TextStyle(
+                    fontSize: 15,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.blueAccent),
+              ),
               onPressed: () {
                 double n1 = 6;
                 double n2 = 27;
