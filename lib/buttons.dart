@@ -9,7 +9,13 @@ class Buttonclass extends StatelessWidget {
         child: Column(
           children: [
             TextButton(
-              child: Text('Addition'),
+              child: Text(
+                'Addition',
+                style: TextStyle(
+                    fontSize: 15,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.blueAccent),
+              ),
               onPressed: () {
                 int n1 = 6;
                 int n2 = 27;
