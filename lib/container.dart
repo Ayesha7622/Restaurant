@@ -259,7 +259,7 @@ class Containerclass extends StatelessWidget {
                                   padding: const EdgeInsets.all(8.0),
                                   child: Text(
                                     'A data type tells the computer what kind of data you'
-                                    're working with —   ',
+                                    're   ',
                                     style: TextStyle(
                                         fontSize: 18,
                                         fontWeight: FontWeight.bold,
@@ -273,7 +273,7 @@ class Containerclass extends StatelessWidget {
                                 Padding(
                                   padding: const EdgeInsets.all(8.0),
                                   child: Text(
-                                    'like numbers, text, or true/false.',
+                                    'working with — like numbers, text, or true/false.',
                                     style: TextStyle(
                                         fontSize: 18,
                                         fontWeight: FontWeight.bold,
