@@ -8,7 +8,7 @@ class Buttonclass extends StatelessWidget {
       backgroundColor: const Color.fromARGB(255, 55, 45, 70),
       body: Center(
         child: Padding(
-          padding: const EdgeInsets.all(8.0),
+          padding: const EdgeInsets.all(16.0),
           child: Column(
             children: [
               TextButton(
