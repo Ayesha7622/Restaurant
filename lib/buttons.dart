@@ -46,7 +46,7 @@ class Buttonclass extends StatelessWidget {
               onPressed: () {
                 double m = 69;
                 double n = 27;
-                double div = m + n;
+                double div = m / n;
                 print('m=$m');
                 print('n=$n');
                 print('Division=$div');
