@@ -96,13 +96,16 @@ class Iconclass extends StatelessWidget {
                   ),
                   Column(
                     children: [
-                      IconButton(
+                      TextButton(
                         onPressed: () {},
-                        icon: Icon(
-                          Icons.star,
-                          color: Colors.blue,
+                        child: Text(
+                          '*',
+                          style: TextStyle(
+                              fontSize: 30,
+                              fontWeight: FontWeight.bold,
+                              color: const Color.fromARGB(255, 232, 240, 172)),
                         ),
-                      ),
+                      )
                     ],
                   ),
                 ],
