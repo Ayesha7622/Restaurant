@@ -107,22 +107,26 @@ class Iconclass extends StatelessWidget {
                   ),
                 ],
               ),
-              TextButton(
-                child: Text(
-                  'Division',
-                  style: TextStyle(
-                      fontSize: 30,
-                      fontWeight: FontWeight.bold,
-                      color: const Color.fromARGB(255, 232, 240, 172)),
-                ),
-                onPressed: () {
-                  double m = 69;
-                  double n = 27;
-                  double div = m / n;
-                  print('m=$m');
-                  print('n=$n');
-                  print('Division=$div');
-                },
+              Row(
+                children: [
+                  TextButton(
+                    child: Text(
+                      'Division',
+                      style: TextStyle(
+                          fontSize: 30,
+                          fontWeight: FontWeight.bold,
+                          color: const Color.fromARGB(255, 232, 240, 172)),
+                    ),
+                    onPressed: () {
+                      double m = 69;
+                      double n = 27;
+                      double div = m / n;
+                      print('m=$m');
+                      print('n=$n');
+                      print('Division=$div');
+                    },
+                  ),
+                ],
               ),
               TextButton(
                 child: Text(
