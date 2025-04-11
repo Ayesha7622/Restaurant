@@ -182,6 +182,7 @@ class Iconclass extends StatelessWidget {
                         onPressed: () {},
                         icon: Icon(
                           Icons.percent,
+                          size: 30,
                           color: const Color.fromARGB(255, 187, 205, 220),
                         ),
                       ),
