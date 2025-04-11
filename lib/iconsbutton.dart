@@ -36,7 +36,7 @@ class Iconclass extends StatelessWidget {
                         onPressed: () {},
                         icon: Icon(
                           Icons.add,
-                          size: 15,
+                          size: 30,
                           color: const Color.fromARGB(255, 117, 165, 135),
                         ),
                       ),
