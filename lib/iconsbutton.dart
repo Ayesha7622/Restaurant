@@ -62,6 +62,17 @@ class Iconclass extends StatelessWidget {
                       print('Subtraction=$sub');
                     },
                   ),
+                  Column(
+                    children: [
+                      IconButton(
+                        onPressed: () {},
+                        icon: Icon(
+                          Icons.remove,
+                          color: Colors.blue,
+                        ),
+                      ),
+                    ],
+                  ),
                 ],
               ),
               TextButton(
