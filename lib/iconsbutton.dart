@@ -50,7 +50,7 @@ class Iconclass extends StatelessWidget {
                   children: [
                     TextButton(
                       child: Text(
-                        'Subtraction',
+                        '2. Subtraction',
                         style: TextStyle(
                             fontSize: 50,
                             fontWeight: FontWeight.bold,
