@@ -32,7 +32,7 @@ class Iconclass extends StatelessWidget {
                   ),
                 ],
               ),
-              Row(
+              Column(
                 children: [
                   IconButton(
                     onPressed: () {},
