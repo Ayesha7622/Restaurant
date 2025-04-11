@@ -44,43 +44,49 @@ class Iconclass extends StatelessWidget {
                   ),
                 ],
               ),
-              Row(
-                children: [
-                  TextButton(
-                    child: Text(
-                      'Subtraction',
-                      style: TextStyle(
-                          fontSize: 50,
-                          fontWeight: FontWeight.bold,
-                          color: const Color.fromARGB(255, 238, 203, 176)),
-                    ),
-                    onPressed: () {
-                      int a = 54;
-                      int b = 12;
-                      int sub = a - b;
-                      print('a=$a');
-                      print('b=$b');
-                      print('Subtraction=$sub');
-                    },
-                  ),
-                  Column(
-                    children: [
-                      // SizedBox(
-                      //   width: 50,
-                      // ),
-                      Padding(
-                        padding: const EdgeInsets.all(16.0),
-                        child: IconButton(
-                          onPressed: () {},
-                          icon: Icon(
-                            Icons.remove,
-                            color: Colors.blue,
-                          ),
-                        ),
+              SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                  children: [
+                    TextButton(
+                      child: Text(
+                        'Subtraction',
+                        style: TextStyle(
+                            fontSize: 50,
+                            fontWeight: FontWeight.bold,
+                            color: const Color.fromARGB(255, 238, 203, 176)),
                       ),
-                    ],
-                  ),
-                ],
+                      onPressed: () {
+                        int a = 54;
+                        int b = 12;
+                        int sub = a - b;
+                        print('a=$a');
+                        print('b=$b');
+                        print('Subtraction=$sub');
+                      },
+                    ),
+                    SingleChildScrollView(
+                      scrollDirection: Axis.horizontal,
+                      child: Column(
+                        children: [
+                          // SizedBox(
+                          //   width: 50,
+                          // ),
+                          Padding(
+                            padding: const EdgeInsets.all(16.0),
+                            child: IconButton(
+                              onPressed: () {},
+                              icon: Icon(
+                                Icons.remove,
+                                color: Colors.blue,
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
               ),
               Row(
                 children: [
