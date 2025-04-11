@@ -5,7 +5,7 @@ class Iconclass extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 121, 115, 132),
+      backgroundColor: const Color.fromARGB(255, 52, 94, 78),
       body: Center(
         child: Padding(
           padding: const EdgeInsets.all(66.0),
