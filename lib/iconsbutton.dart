@@ -118,7 +118,7 @@ class Iconclass extends StatelessWidget {
                       style: TextStyle(
                           fontSize: 30,
                           fontWeight: FontWeight.bold,
-                          color: const Color.fromARGB(255, 232, 240, 172)),
+                          color: const Color.fromARGB(255, 238, 245, 187)),
                     ),
                     onPressed: () {
                       double m = 69;
@@ -138,7 +138,7 @@ class Iconclass extends StatelessWidget {
                           style: TextStyle(
                               fontSize: 30,
                               fontWeight: FontWeight.bold,
-                              color: const Color.fromARGB(255, 232, 240, 172)),
+                              color: const Color.fromARGB(255, 172, 240, 234)),
                         ),
                       )
                     ],
