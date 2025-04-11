@@ -15,7 +15,7 @@ class Iconclass extends StatelessWidget {
                 children: [
                   TextButton(
                     child: Text(
-                      'Addition',
+                      '1. Addition',
                       style: TextStyle(
                           fontSize: 50,
                           fontWeight: FontWeight.bold,
