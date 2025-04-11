@@ -128,7 +128,7 @@ class Iconclass extends StatelessWidget {
                     child: Text(
                       'Division',
                       style: TextStyle(
-                          fontSize: 30,
+                          fontSize: 50,
                           fontWeight: FontWeight.bold,
                           color: const Color.fromARGB(255, 238, 245, 187)),
                     ),
