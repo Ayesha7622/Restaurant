@@ -158,6 +158,17 @@ class Iconclass extends StatelessWidget {
                       print('Modulas=$mod');
                     },
                   ),
+                  Column(
+                    children: [
+                      IconButton(
+                        onPressed: () {},
+                        icon: Icon(
+                          Icons.percent,
+                          color: Colors.blue,
+                        ),
+                      ),
+                    ],
+                  ),
                 ],
               ),
             ],
