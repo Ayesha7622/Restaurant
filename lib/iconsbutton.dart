@@ -91,7 +91,7 @@ class Iconclass extends StatelessWidget {
                       child: Text(
                         'Multiplication',
                         style: TextStyle(
-                            fontSize: 50,
+                            fontSize: 43,
                             fontWeight: FontWeight.bold,
                             color: const Color.fromARGB(255, 232, 194, 227)),
                       ),
