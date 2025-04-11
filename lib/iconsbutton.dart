@@ -65,6 +65,9 @@ class Iconclass extends StatelessWidget {
                   ),
                   Column(
                     children: [
+                      SizedBox(
+                        width: 20,
+                      ),
                       IconButton(
                         onPressed: () {},
                         icon: Icon(
