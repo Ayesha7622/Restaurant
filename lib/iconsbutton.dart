@@ -164,7 +164,7 @@ class Iconclass extends StatelessWidget {
                         onPressed: () {},
                         icon: Icon(
                           Icons.percent,
-                          color: Colors.blue,
+                          color: const Color.fromARGB(255, 187, 205, 220),
                         ),
                       ),
                     ],
