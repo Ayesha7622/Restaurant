@@ -17,7 +17,7 @@ class Iconclass extends StatelessWidget {
                     child: Text(
                       'Addition',
                       style: TextStyle(
-                          fontSize: 40,
+                          fontSize: 50,
                           fontWeight: FontWeight.bold,
                           color: const Color.fromARGB(255, 185, 211, 255)),
                     ),
