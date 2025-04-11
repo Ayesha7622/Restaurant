@@ -75,22 +75,26 @@ class Iconclass extends StatelessWidget {
                   ),
                 ],
               ),
-              TextButton(
-                child: Text(
-                  'Multiplication',
-                  style: TextStyle(
-                      fontSize: 30,
-                      fontWeight: FontWeight.bold,
-                      color: const Color.fromARGB(255, 232, 194, 227)),
-                ),
-                onPressed: () {
-                  int z = 16;
-                  int x = 27;
-                  int multi = z * x;
-                  print('z=$z');
-                  print('x=$x');
-                  print('Multiplication=$multi');
-                },
+              Row(
+                children: [
+                  TextButton(
+                    child: Text(
+                      'Multiplication',
+                      style: TextStyle(
+                          fontSize: 30,
+                          fontWeight: FontWeight.bold,
+                          color: const Color.fromARGB(255, 232, 194, 227)),
+                    ),
+                    onPressed: () {
+                      int z = 16;
+                      int x = 27;
+                      int multi = z * x;
+                      print('z=$z');
+                      print('x=$x');
+                      print('Multiplication=$multi');
+                    },
+                  ),
+                ],
               ),
               TextButton(
                 child: Text(
