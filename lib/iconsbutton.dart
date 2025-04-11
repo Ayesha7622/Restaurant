@@ -65,14 +65,17 @@ class Iconclass extends StatelessWidget {
                   ),
                   Column(
                     children: [
-                      SizedBox(
-                        width: 20,
-                      ),
-                      IconButton(
-                        onPressed: () {},
-                        icon: Icon(
-                          Icons.remove,
-                          color: Colors.blue,
+                      // SizedBox(
+                      //   width: 50,
+                      // ),
+                      Padding(
+                        padding: const EdgeInsets.all(16.0),
+                        child: IconButton(
+                          onPressed: () {},
+                          icon: Icon(
+                            Icons.remove,
+                            color: Colors.blue,
+                          ),
                         ),
                       ),
                     ],
