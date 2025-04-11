@@ -34,7 +34,10 @@ class Iconclass extends StatelessWidget {
                     children: [
                       IconButton(
                         onPressed: () {},
-                        icon: Icon(Icons.add),
+                        icon: Icon(
+                          Icons.add,
+                          color: Colors.blue,
+                        ),
                       ),
                     ],
                   ),
