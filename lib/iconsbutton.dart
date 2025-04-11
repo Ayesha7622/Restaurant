@@ -19,7 +19,7 @@ class Iconclass extends StatelessWidget {
                       style: TextStyle(
                           fontSize: 50,
                           fontWeight: FontWeight.bold,
-                          color: const Color.fromARGB(255, 185, 211, 255)),
+                          color: const Color.fromARGB(255, 241, 174, 202)),
                     ),
                     onPressed: () {
                       int n1 = 6;
