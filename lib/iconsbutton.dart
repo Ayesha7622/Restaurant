@@ -183,7 +183,7 @@ class Iconclass extends StatelessWidget {
                         icon: Icon(
                           Icons.percent,
                           size: 30,
-                          color: const Color.fromARGB(255, 236, 138, 227),
+                          color: const Color.fromARGB(255, 235, 166, 228),
                         ),
                       ),
                     ],
