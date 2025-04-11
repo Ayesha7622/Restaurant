@@ -163,7 +163,7 @@ class Iconclass extends StatelessWidget {
                     child: Text(
                       'Modulas',
                       style: TextStyle(
-                          fontSize: 30,
+                          fontSize: 50,
                           fontWeight: FontWeight.bold,
                           color: const Color.fromARGB(255, 174, 193, 226)),
                     ),
