@@ -11,22 +11,26 @@ class Iconclass extends StatelessWidget {
           padding: const EdgeInsets.all(66.0),
           child: Column(
             children: [
-              TextButton(
-                child: Text(
-                  'Addition',
-                  style: TextStyle(
-                      fontSize: 30,
-                      fontWeight: FontWeight.bold,
-                      color: const Color.fromARGB(255, 185, 211, 255)),
-                ),
-                onPressed: () {
-                  int n1 = 6;
-                  int n2 = 27;
-                  int add = n1 + n2;
-                  print('n1=$n1');
-                  print('n2=$n2');
-                  print('Addition=$add');
-                },
+              Row(
+                children: [
+                  TextButton(
+                    child: Text(
+                      'Addition',
+                      style: TextStyle(
+                          fontSize: 30,
+                          fontWeight: FontWeight.bold,
+                          color: const Color.fromARGB(255, 185, 211, 255)),
+                    ),
+                    onPressed: () {
+                      int n1 = 6;
+                      int n2 = 27;
+                      int add = n1 + n2;
+                      print('n1=$n1');
+                      print('n2=$n2');
+                      print('Addition=$add');
+                    },
+                  ),
+                ],
               ),
               Row(
                 children: [
