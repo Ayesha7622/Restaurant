@@ -43,22 +43,26 @@ class Iconclass extends StatelessWidget {
                   ),
                 ],
               ),
-              TextButton(
-                child: Text(
-                  'Subtraction',
-                  style: TextStyle(
-                      fontSize: 30,
-                      fontWeight: FontWeight.bold,
-                      color: const Color.fromARGB(255, 238, 203, 176)),
-                ),
-                onPressed: () {
-                  int a = 54;
-                  int b = 12;
-                  int sub = a - b;
-                  print('a=$a');
-                  print('b=$b');
-                  print('Subtraction=$sub');
-                },
+              Row(
+                children: [
+                  TextButton(
+                    child: Text(
+                      'Subtraction',
+                      style: TextStyle(
+                          fontSize: 30,
+                          fontWeight: FontWeight.bold,
+                          color: const Color.fromARGB(255, 238, 203, 176)),
+                    ),
+                    onPressed: () {
+                      int a = 54;
+                      int b = 12;
+                      int sub = a - b;
+                      print('a=$a');
+                      print('b=$b');
+                      print('Subtraction=$sub');
+                    },
+                  ),
+                ],
               ),
               TextButton(
                 child: Text(
