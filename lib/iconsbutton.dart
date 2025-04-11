@@ -83,40 +83,44 @@ class Iconclass extends StatelessWidget {
                   ],
                 ),
               ),
-              Row(
-                children: [
-                  TextButton(
-                    child: Text(
-                      'Multiplication',
-                      style: TextStyle(
-                          fontSize: 30,
-                          fontWeight: FontWeight.bold,
-                          color: const Color.fromARGB(255, 232, 194, 227)),
+              SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                  children: [
+                    TextButton(
+                      child: Text(
+                        'Multiplication',
+                        style: TextStyle(
+                            fontSize: 30,
+                            fontWeight: FontWeight.bold,
+                            color: const Color.fromARGB(255, 232, 194, 227)),
+                      ),
+                      onPressed: () {
+                        int z = 16;
+                        int x = 27;
+                        int multi = z * x;
+                        print('z=$z');
+                        print('x=$x');
+                        print('Multiplication=$multi');
+                      },
                     ),
-                    onPressed: () {
-                      int z = 16;
-                      int x = 27;
-                      int multi = z * x;
-                      print('z=$z');
-                      print('x=$x');
-                      print('Multiplication=$multi');
-                    },
-                  ),
-                  Column(
-                    children: [
-                      TextButton(
-                        onPressed: () {},
-                        child: Text(
-                          '*',
-                          style: TextStyle(
-                              fontSize: 30,
-                              fontWeight: FontWeight.bold,
-                              color: const Color.fromARGB(255, 232, 240, 172)),
-                        ),
-                      )
-                    ],
-                  ),
-                ],
+                    Column(
+                      children: [
+                        TextButton(
+                          onPressed: () {},
+                          child: Text(
+                            '*',
+                            style: TextStyle(
+                                fontSize: 30,
+                                fontWeight: FontWeight.bold,
+                                color:
+                                    const Color.fromARGB(255, 232, 240, 172)),
+                          ),
+                        )
+                      ],
+                    ),
+                  ],
+                ),
               ),
               Row(
                 children: [
