@@ -94,6 +94,17 @@ class Iconclass extends StatelessWidget {
                       print('Multiplication=$multi');
                     },
                   ),
+                  Column(
+                    children: [
+                      IconButton(
+                        onPressed: () {},
+                        icon: Icon(
+                          Icons.star,
+                          color: Colors.blue,
+                        ),
+                      ),
+                    ],
+                  ),
                 ],
               ),
               TextButton(
