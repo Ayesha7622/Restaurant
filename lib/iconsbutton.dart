@@ -65,25 +65,20 @@ class Iconclass extends StatelessWidget {
                         print('Subtraction=$sub');
                       },
                     ),
-                    SingleChildScrollView(
-                      scrollDirection: Axis.horizontal,
-                      child: Column(
-                        children: [
-                          // SizedBox(
-                          //   width: 50,
-                          // ),
-                          Padding(
-                            padding: const EdgeInsets.all(16.0),
-                            child: IconButton(
-                              onPressed: () {},
-                              icon: Icon(
-                                Icons.remove,
-                                color: Colors.blue,
-                              ),
-                            ),
+                    Column(
+                      children: [
+                        // SizedBox(
+                        //   width: 50,
+                        // ),
+                        IconButton(
+                          onPressed: () {},
+                          icon: Icon(
+                            Icons.remove,
+                            color: Colors.blue,
+                            size: 30,
                           ),
-                        ],
-                      ),
+                        ),
+                      ],
                     ),
                   ],
                 ),
