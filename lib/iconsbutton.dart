@@ -30,13 +30,13 @@ class Iconclass extends StatelessWidget {
                       print('Addition=$add');
                     },
                   ),
-                ],
-              ),
-              Column(
-                children: [
-                  IconButton(
-                    onPressed: () {},
-                    icon: Icon(Icons.add),
+                  Column(
+                    children: [
+                      IconButton(
+                        onPressed: () {},
+                        icon: Icon(Icons.add),
+                      ),
+                    ],
                   ),
                 ],
               ),
