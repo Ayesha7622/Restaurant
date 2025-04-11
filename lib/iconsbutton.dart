@@ -126,24 +126,39 @@ class Iconclass extends StatelessWidget {
                       print('Division=$div');
                     },
                   ),
+                  Column(
+                    children: [
+                      IconButton(
+                        onPressed: () {},
+                        icon: Icon(
+                          Icons.forward,
+                          color: Colors.blue,
+                        ),
+                      ),
+                    ],
+                  ),
                 ],
               ),
-              TextButton(
-                child: Text(
-                  'Modulas',
-                  style: TextStyle(
-                      fontSize: 30,
-                      fontWeight: FontWeight.bold,
-                      color: const Color.fromARGB(255, 174, 193, 226)),
-                ),
-                onPressed: () {
-                  double n1 = 6;
-                  double n2 = 27;
-                  double mod = n1 % n2;
-                  print('n1=$n1');
-                  print('n2=$n2');
-                  print('Modulas=$mod');
-                },
+              Row(
+                children: [
+                  TextButton(
+                    child: Text(
+                      'Modulas',
+                      style: TextStyle(
+                          fontSize: 30,
+                          fontWeight: FontWeight.bold,
+                          color: const Color.fromARGB(255, 174, 193, 226)),
+                    ),
+                    onPressed: () {
+                      double n1 = 6;
+                      double n2 = 27;
+                      double mod = n1 % n2;
+                      print('n1=$n1');
+                      print('n2=$n2');
+                      print('Modulas=$mod');
+                    },
+                  ),
+                ],
               ),
             ],
           ),
