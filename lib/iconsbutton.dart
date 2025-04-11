@@ -50,7 +50,7 @@ class Iconclass extends StatelessWidget {
                     child: Text(
                       'Subtraction',
                       style: TextStyle(
-                          fontSize: 30,
+                          fontSize: 50,
                           fontWeight: FontWeight.bold,
                           color: const Color.fromARGB(255, 238, 203, 176)),
                     ),
