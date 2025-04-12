@@ -10,6 +10,11 @@ class Iconclass extends StatelessWidget {
           children: [
             Row(children: [
               Text('Subject Marks:'),
+              Row(
+                children: [
+                  Text('English = 95/100'),
+                ],
+              )
             ])
           ],
         ));
