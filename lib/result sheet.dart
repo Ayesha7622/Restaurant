@@ -46,7 +46,9 @@ class Iconclass extends StatelessWidget {
               ),
             ),
             FloatingActionButton(
-              onPressed: () {},
+              onPressed: () {
+                int urdu_marks = 85;
+              },
               backgroundColor: Colors.grey,
               child: Row(
                 children: [Text('Urdu Marks:')],
