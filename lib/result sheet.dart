@@ -10,7 +10,21 @@ class Iconclass extends StatelessWidget {
           child: FloatingActionButton(
               onPressed: () {},
               backgroundColor: Colors.blueAccent,
-              child: Text('English Marks:')),
+              child: Column(
+                children: [
+                  Row(
+                    children: [
+                      Text('English Marks:'),
+                    ],
+                  ),
+                  Row(
+                    children: [Text('Chemistry Marks:')],
+                  ),
+                  Row(
+                    children: [Text('Chemistry Marks:')],
+                  ),
+                ],
+              )),
         )
         // body: Column(children: [
         //   Row(children: [
