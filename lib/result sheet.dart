@@ -67,7 +67,13 @@ class Iconclass extends StatelessWidget {
           ),
           Row(
             children: [
-              Text('Biology = 89/100'),
+              Text(
+                'Biology = 89/100',
+                style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.blueGrey),
+              ),
             ],
           ),
         ]));
