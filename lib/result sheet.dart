@@ -37,7 +37,9 @@ class Iconclass extends StatelessWidget {
               ),
             ),
             FloatingActionButton(
-              onPressed: () {},
+              onPressed: () {
+                int math_marks = 97;
+              },
               backgroundColor: Colors.green,
               child: Row(
                 children: [Text('Math Marks:')],
