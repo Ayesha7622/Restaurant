@@ -8,7 +8,13 @@ class Iconclass extends StatelessWidget {
         backgroundColor: const Color.fromARGB(255, 52, 94, 78),
         body: Column(children: [
           Row(children: [
-            Text('Subject Marks:'),
+            Text(
+              'Subject Marks:',
+              style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                  color: const Color.fromARGB(255, 108, 127, 180)),
+            ),
           ]),
           Row(
             children: [
