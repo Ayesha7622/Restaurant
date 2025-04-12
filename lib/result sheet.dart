@@ -29,7 +29,7 @@ class Iconclass extends StatelessWidget {
             ),
             FloatingActionButton(
               onPressed: () {
-                int biology_marks = 97;
+                int biology_marks = 92;
               },
               backgroundColor: Colors.deepPurple,
               child: Row(
