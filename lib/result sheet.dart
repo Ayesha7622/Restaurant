@@ -50,7 +50,7 @@ class Iconclass extends StatelessWidget {
                 style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
-                    color: Colors.blueGrey),
+                    color: const Color.fromARGB(255, 172, 214, 236)),
               ),
             ],
           ),
