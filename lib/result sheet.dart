@@ -56,7 +56,13 @@ class Iconclass extends StatelessWidget {
           ),
           Row(
             children: [
-              Text('Urdu = 88/100'),
+              Text(
+                'Urdu = 88/100',
+                style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.blueGrey),
+              ),
             ],
           ),
           Row(
