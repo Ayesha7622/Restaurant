@@ -40,11 +40,6 @@ class Iconclass extends StatelessWidget {
               Text('Biology = 89/100'),
             ],
           ),
-          Row(
-            children: [
-              Text('English = 98/100'),
-            ],
-          ),
         ]));
   }
 }
