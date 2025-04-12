@@ -23,6 +23,9 @@ class Iconclass extends StatelessWidget {
                   Row(
                     children: [Text('Chemistry Marks:')],
                   ),
+                  Row(
+                    children: [Text('Chemistry Marks:')],
+                  ),
                 ],
               )),
         )
