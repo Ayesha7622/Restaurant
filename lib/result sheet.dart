@@ -62,7 +62,7 @@ class Iconclass extends StatelessWidget {
               onPressed: () {},
               backgroundColor: Colors.lightGreen,
               child: Row(
-                children: [Text('Physics Marks:')],
+                children: [Text('Obtain Marks:')],
               ),
             ),
           ],
