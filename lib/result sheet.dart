@@ -65,6 +65,13 @@ class Iconclass extends StatelessWidget {
                 children: [Text('Obtain Marks:')],
               ),
             ),
+            FloatingActionButton(
+              onPressed: () {},
+              backgroundColor: Colors.lightGreen,
+              child: Row(
+                children: [Text(' Percentage')],
+              ),
+            ),
           ],
         ));
 
