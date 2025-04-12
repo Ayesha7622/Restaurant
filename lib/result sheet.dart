@@ -10,14 +10,18 @@ class Iconclass extends StatelessWidget {
           children: [
             Center(
                 child: FloatingActionButton(
-              onPressed: () {},
+              onPressed: () {
+                int english_marks = 88;
+              },
               backgroundColor: Colors.blueAccent,
               child: Row(
                 children: [Text('English Marks:')],
               ),
             )),
             FloatingActionButton(
-              onPressed: () {},
+              onPressed: () {
+                int islamiyat_marks = 44;
+              },
               backgroundColor: Colors.brown,
               child: Row(
                 children: [Text('Islamiyat Marks:')],
