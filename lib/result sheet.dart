@@ -45,7 +45,13 @@ class Iconclass extends StatelessWidget {
           ),
           Row(
             children: [
-              Text('Physics = 90/100'),
+              Text(
+                'Physics = 90/100',
+                style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.blueGrey),
+              ),
             ],
           ),
           Row(
