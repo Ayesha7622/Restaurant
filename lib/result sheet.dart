@@ -32,8 +32,12 @@ class Iconclass extends StatelessWidget {
                 children: [Text('Biology Marks:')],
               ),
             ),
-            Row(
-              children: [Text('Math Marks:')],
+            FloatingActionButton(
+              onPressed: () {},
+              backgroundColor: Colors.green,
+              child: Row(
+                children: [Text('Math Marks:')],
+              ),
             ),
             Row(
               children: [Text('Urdu Marks:')],
