@@ -28,7 +28,9 @@ class Iconclass extends StatelessWidget {
               ),
             ),
             FloatingActionButton(
-              onPressed: () {},
+              onPressed: () {
+                int biology_marks = 97;
+              },
               backgroundColor: Colors.deepPurple,
               child: Row(
                 children: [Text('Biology Marks:')],
