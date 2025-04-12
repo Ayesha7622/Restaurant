@@ -13,7 +13,7 @@ class Iconclass extends StatelessWidget {
           Row(
             children: [
               Text(
-                'English = 75/100',
+                'English = 87/100',
                 style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
@@ -23,7 +23,13 @@ class Iconclass extends StatelessWidget {
           ),
           Row(
             children: [
-              Text('Chemistry = 95/100'),
+              Text(
+                'Chemistry = 95/100',
+                style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.blueGrey),
+              ),
             ],
           ),
           Row(
