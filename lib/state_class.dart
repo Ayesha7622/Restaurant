@@ -59,6 +59,9 @@ class _StateClassState extends State<StateClass> {
               backgroundColor: Colors.purple,
             ),
             Text('Substarction=$sub'),
+            SizedBox(
+              height: 10,
+            ),
             FloatingActionButton(
               onPressed: () {
                 double n = 56;
@@ -74,6 +77,9 @@ class _StateClassState extends State<StateClass> {
               backgroundColor: Colors.blueGrey,
             ),
             Text('Modulas=$mod'),
+            SizedBox(
+              height: 10,
+            ),
             FloatingActionButton(
               onPressed: () {
                 int y = 63;
