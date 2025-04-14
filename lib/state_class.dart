@@ -10,6 +10,7 @@ class StateClass extends StatefulWidget {
 class _StateClassState extends State<StateClass> {
 // consts--- constant------> no change
   int result = 0;
+  int add = 0;
   int sub = 0;
   double mod = 0;
   int multi = 0;
@@ -33,6 +34,7 @@ class _StateClassState extends State<StateClass> {
               },
               child: Icon(Icons.add),
             ),
+            Text("Addition=$add"),
             SizedBox(
               height: 10,
             ),
