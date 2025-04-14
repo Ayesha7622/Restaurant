@@ -19,6 +19,7 @@ class _StateClassState extends State<StateClass> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          backgroundColor: Colors.deepPurpleAccent,
           title: Text('State Class'),
         ),
         body: Column(
