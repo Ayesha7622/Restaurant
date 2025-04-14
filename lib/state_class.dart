@@ -88,7 +88,13 @@ class _StateClassState extends State<StateClass> {
               ),
               backgroundColor: Colors.blueGrey,
             ),
-            Text('Modulas=$mod'),
+            Text(
+              'Modulas=$mod',
+              style: TextStyle(
+                fontSize: 28,
+                fontWeight: FontWeight.w400,
+              ),
+            ),
             SizedBox(
               height: 18,
             ),
