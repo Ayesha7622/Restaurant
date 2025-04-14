@@ -41,6 +41,7 @@ class _StateClassState extends State<StateClass> {
                 int b = 87;
                 sub = a - b;
                 setState(() {});
+                print('Subtraction=$sub');
               },
               child: Icon(
                 Icons.remove,
@@ -55,6 +56,7 @@ class _StateClassState extends State<StateClass> {
                 double m = 21;
                 mod = n % m;
                 setState(() {});
+                print('Modulas$mod');
               },
               child: Icon(
                 Icons.percent,
