@@ -23,7 +23,9 @@ class _StateClassState extends State<StateClass> {
           title: Text(
             'State Class',
             style: TextStyle(
-                fontSize: 38, fontWeight: FontWeight.bold, color: Colors.black),
+                fontSize: 38,
+                fontWeight: FontWeight.bold,
+                color: const Color.fromARGB(255, 252, 250, 250)),
           ),
         ),
         body: Column(
