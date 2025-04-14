@@ -24,12 +24,15 @@ class _StateClassState extends State<StateClass> {
         body: Column(
           // print("result=$result")
           children: [
-            Text(
-              'Results of Arithmetic Operators=',
-              style: TextStyle(
-                  fontSize: 38,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.black),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text(
+                'Results of Arithmetic Operators=',
+                style: TextStyle(
+                    fontSize: 38,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.black),
+              ),
             ),
             FloatingActionButton(
               onPressed: () {
