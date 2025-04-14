@@ -113,7 +113,13 @@ class _StateClassState extends State<StateClass> {
               ),
               backgroundColor: const Color.fromARGB(255, 6, 57, 78),
             ),
-            Text('Product=$multi'),
+            Text(
+              'Product=$multi',
+              style: TextStyle(
+                fontSize: 28,
+                fontWeight: FontWeight.w400,
+              ),
+            ),
             SizedBox(
               height: 18,
             ),
