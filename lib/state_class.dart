@@ -126,7 +126,7 @@ class _StateClassState extends State<StateClass> {
                 '/',
                 style: TextStyle(fontSize: 30, color: Colors.white),
               ),
-              backgroundColor: const Color.fromARGB(255, 183, 225, 134),
+              backgroundColor: const Color.fromARGB(255, 47, 84, 4),
             ),
             Text('Division=$div'),
           ],
