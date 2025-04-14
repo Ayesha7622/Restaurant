@@ -47,7 +47,21 @@ class _StateClassState extends State<StateClass> {
               ),
               backgroundColor: Colors.purple,
             ),
-            Text('Substarction=$sub')
+            Text('Substarction=$sub'),
+            FloatingActionButton(
+              onPressed: () {
+                double n = 56;
+                double m = 21;
+                double mod = n % m;
+                setState(() {});
+              },
+              child: Icon(
+                Icons.percent,
+                color: Colors.white,
+              ),
+              backgroundColor: Colors.blueGrey,
+            ),
+            Text('Modulas$mod'),
           ],
         ));
   }
