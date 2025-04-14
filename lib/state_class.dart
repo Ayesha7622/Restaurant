@@ -111,7 +111,7 @@ class _StateClassState extends State<StateClass> {
                 '*',
                 style: TextStyle(fontSize: 30, color: Colors.white),
               ),
-              backgroundColor: const Color.fromARGB(255, 130, 205, 238),
+              backgroundColor: const Color.fromARGB(255, 6, 57, 78),
             ),
             Text('Product=$multi'),
             FloatingActionButton(
