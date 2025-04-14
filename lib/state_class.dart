@@ -42,7 +42,7 @@ class _StateClassState extends State<StateClass> {
             ),
             Text("Addition=$add"),
             SizedBox(
-              height: 10,
+              height: 18,
             ),
             FloatingActionButton(
               onPressed: () {
