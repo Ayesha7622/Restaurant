@@ -72,7 +72,10 @@ class _StateClassState extends State<StateClass> {
                 int z = 29;
                 multi = y * z;
               },
-              child: Text('*'),
+              child: Text(
+                '*',
+                style: TextStyle(fontSize: 14),
+              ),
               backgroundColor: Colors.lightGreen,
             ),
             Text('Product=$multi'),
