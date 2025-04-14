@@ -11,6 +11,7 @@ class _StateClassState extends State<StateClass> {
 // consts--- constant------> no change
   int result = 0;
   int sub = 0;
+  double mod = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -52,7 +53,7 @@ class _StateClassState extends State<StateClass> {
               onPressed: () {
                 double n = 56;
                 double m = 21;
-                double mod = n % m;
+                mod = n % m;
                 setState(() {});
               },
               child: Icon(
@@ -61,7 +62,7 @@ class _StateClassState extends State<StateClass> {
               ),
               backgroundColor: Colors.blueGrey,
             ),
-            Text('Modulas$mod'),
+            Text('Modulas=$mod'),
           ],
         ));
   }
