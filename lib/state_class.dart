@@ -19,7 +19,7 @@ class _StateClassState extends State<StateClass> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.deepPurpleAccent,
+          backgroundColor: const Color.fromARGB(255, 124, 115, 146),
           title: Text('State Class'),
         ),
         body: Column(
