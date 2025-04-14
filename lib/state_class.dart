@@ -137,7 +137,13 @@ class _StateClassState extends State<StateClass> {
               ),
               backgroundColor: const Color.fromARGB(255, 47, 84, 4),
             ),
-            Text('Division=$div'),
+            Text(
+              'Division=$div',
+              style: TextStyle(
+                fontSize: 28,
+                fontWeight: FontWeight.w400,
+              ),
+            ),
           ],
         ));
   }
