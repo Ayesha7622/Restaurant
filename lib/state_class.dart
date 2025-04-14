@@ -12,6 +12,7 @@ class _StateClassState extends State<StateClass> {
   int result = 0;
   int sub = 0;
   double mod = 0;
+  int multi = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -65,6 +66,15 @@ class _StateClassState extends State<StateClass> {
               backgroundColor: Colors.blueGrey,
             ),
             Text('Modulas=$mod'),
+            FloatingActionButton(
+              onPressed: () {
+                int y = 63;
+                int z = 29;
+                multi = y * z;
+              },
+              backgroundColor: Colors.lightGreen,
+            ),
+            Text('Product=$multi'),
           ],
         ));
   }
