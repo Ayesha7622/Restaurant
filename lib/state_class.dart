@@ -20,7 +20,7 @@ class _StateClassState extends State<StateClass> {
     return Scaffold(
         backgroundColor: const Color.fromARGB(255, 212, 231, 246),
         appBar: AppBar(
-          backgroundColor: const Color.fromARGB(255, 176, 165, 202),
+          backgroundColor: const Color.fromARGB(255, 10, 45, 74),
           title: Text(
             'State Class',
             style: TextStyle(
