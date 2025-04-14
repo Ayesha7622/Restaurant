@@ -18,7 +18,7 @@ class _StateClassState extends State<StateClass> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: const Color.fromARGB(255, 191, 221, 246),
+        backgroundColor: const Color.fromARGB(255, 212, 231, 246),
         appBar: AppBar(
           backgroundColor: const Color.fromARGB(255, 176, 165, 202),
           title: Text(
