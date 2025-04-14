@@ -114,6 +114,9 @@ class _StateClassState extends State<StateClass> {
               backgroundColor: const Color.fromARGB(255, 6, 57, 78),
             ),
             Text('Product=$multi'),
+            SizedBox(
+              height: 18,
+            ),
             FloatingActionButton(
               onPressed: () {
                 double y = 63;
