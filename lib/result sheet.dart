@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Iconclass extends StatelessWidget {
-  const Iconclass({super.key});
+class ResultIconclass extends StatelessWidget {
+  const ResultIconclass({super.key});
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -73,7 +73,9 @@ class Iconclass extends StatelessWidget {
               ),
             ),
             FloatingActionButton(
-              onPressed: () {},
+              onPressed: () {
+                // int Obtain_marks=biology_marks+urdu_marks+math_marks+physics_marks+
+              },
               backgroundColor: Colors.lightGreen,
               child: Row(
                 children: [Text('Obtain Marks:')],

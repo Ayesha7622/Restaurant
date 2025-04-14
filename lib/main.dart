@@ -3,6 +3,8 @@ import 'package:restaurant/buttons.dart';
 import 'package:restaurant/container.dart';
 import 'package:restaurant/iconsbutton.dart';
 import 'package:restaurant/restaurant.dart';
+import 'package:restaurant/result%20sheet.dart';
+import 'package:restaurant/state_class.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,11 +16,10 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-        debugShowCheckedModeBanner: false,
-        //home: Iconclass()
+    return MaterialApp(debugShowCheckedModeBanner: false, home: StateClass()
+        //ResultIconclass() //Iconclass()
         //home: Buttonclass()
-        home: Restaurant()
+        //home: Restaurant()
         //home: Containerclass()
         );
   }
