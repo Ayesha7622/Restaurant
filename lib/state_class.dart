@@ -40,7 +40,13 @@ class _StateClassState extends State<StateClass> {
               },
               child: Icon(Icons.add),
             ),
-            Text("Addition=$add"),
+            Text(
+              "Addition=$add",
+              style: TextStyle(
+                fontSize: 28,
+                fontWeight: FontWeight.w400,
+              ),
+            ),
             SizedBox(
               height: 18,
             ),
@@ -58,7 +64,13 @@ class _StateClassState extends State<StateClass> {
               ),
               backgroundColor: Colors.purple,
             ),
-            Text('Substarction=$sub'),
+            Text(
+              'Substarction=$sub',
+              style: TextStyle(
+                fontSize: 28,
+                fontWeight: FontWeight.w400,
+              ),
+            ),
             SizedBox(
               height: 18,
             ),
