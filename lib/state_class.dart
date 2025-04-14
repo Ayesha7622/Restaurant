@@ -23,14 +23,20 @@ class _StateClassState extends State<StateClass> {
         body: Column(
           // print("result=$result")
           children: [
-            Text('Result=$result'),
+            Text(
+              'Results of Arithmetic Operators=',
+              style: TextStyle(
+                  fontSize: 38,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black),
+            ),
             FloatingActionButton(
               onPressed: () {
                 int n1 = 50;
                 int n2 = 6;
-                result = n1 + n2;
+                add = n1 + n2;
                 setState(() {});
-                print('Add=$result');
+                print('Add=$add');
               },
               child: Icon(Icons.add),
             ),
