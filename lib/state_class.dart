@@ -74,7 +74,7 @@ class _StateClassState extends State<StateClass> {
               },
               child: Text(
                 '*',
-                style: TextStyle(fontSize: 24),
+                style: TextStyle(fontSize: 30, color: Colors.white),
               ),
               backgroundColor: Colors.lightGreen,
             ),
