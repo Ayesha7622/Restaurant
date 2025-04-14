@@ -78,7 +78,7 @@ class _StateClassState extends State<StateClass> {
             ),
             Text('Modulas=$mod'),
             SizedBox(
-              height: 10,
+              height: 18,
             ),
             FloatingActionButton(
               onPressed: () {
