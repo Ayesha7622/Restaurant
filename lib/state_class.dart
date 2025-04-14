@@ -73,6 +73,8 @@ class _StateClassState extends State<StateClass> {
                 int y = 63;
                 int z = 29;
                 multi = y * z;
+                setState(() {});
+                print('Product=$multi');
               },
               child: Text(
                 '*',
