@@ -37,9 +37,24 @@ class _StateClassState extends State<StateClass> {
               child: Text(
                 'Results of Arithmetic Operators=',
                 style: TextStyle(
-                    fontSize: 38,
+                    fontSize: 28,
                     fontWeight: FontWeight.bold,
                     color: Colors.black),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.symmetric(horizontal: 28),
+              child: Container(
+                decoration: BoxDecoration(
+                    color: Colors.blue,
+                    borderRadius: BorderRadius.circular(10)),
+                child: TextFormField(
+                  style: TextStyle(color: Colors.white),
+                  decoration: InputDecoration(
+                      hintText: 'Enter your email',
+                      hintStyle: TextStyle(color: Colors.white),
+                      prefixIcon: Icon(Icons.mail)),
+                ),
               ),
             ),
             FloatingActionButton(
