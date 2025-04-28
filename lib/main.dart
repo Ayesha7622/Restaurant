@@ -16,9 +16,11 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: StateClass()
+    return MaterialApp(
+        debugShowCheckedModeBanner: false,
+        //home: StateClass()
 
-        //home: Restaurant()
+        home: Restaurant()
         //home: Containerclass()
         );
   }
